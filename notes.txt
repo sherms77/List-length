@@ -1,0 +1,41 @@
+LINKS
+020221: append list - https://www.programiz.com/python-programming/methods/list/append
+
+FAILED CODE
+num_elements = len(set(l)) # 030121: TypeError: unhashable type: list. looks like you can't use set function on nested lists.
+    
+# this function does not work for lilst (l) bc of un-nested int element (1) in list
+# unpack the list first and convert it to a string?
+# 030121: maybe use set function
+# https://stackabuse.com/python-get-number-of-elements-in-a-list/
+
+def listLength2():
+    i = 0
+    while i < len(l):
+        x = len(l[i])
+        print('The length of element:', [i], ' is:', (x))
+        i +=1
+
+listLength2()       
+# listLength()
+
+# print(len(e[0]))
+# print(len(e[2]))
+
+'''
+# this prints lenght of each element in the list
+def listLength():
+    i = 0
+    while i < len(e):
+        x = len(e[i])
+        print('The length of element:', [i], ' is:', (x))
+        i +=1
+'''
+
+# print(len(l)) # length of whole list
+# print(len(l[1])) # length of nested list [1] - error: int has no len.
+# print(len(str(l[1]))) # provides correct output for list [1]
+# print(len(l[2])) # length of nested list [2]
+# print(len(l[3])) # len of third element
+# print(len(str(l[3]))) # incorrect output for list [3] - output = 12?
+# print(len(l[2]))
