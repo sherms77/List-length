@@ -3,7 +3,7 @@
 # ref to /home/sherms/Python files/How to think_exercises/listLength/tests.txt
 
 think = ['spam!', 1, ['Brie', 'Roquefort', 'Pol le Veq'], [1, 2 ,3, 4]]
-e = ['spam!', ['Brie', 'Roquefort', 'Pol le Veq'], [1, 2 ,3]] # list without standalone int 1
+# running len on the unnested int element of 1 is the problem. len does not work on it in this format.
 
 def unpack_list(l):
     y = int(len(l)) # upper range limit
@@ -12,18 +12,14 @@ def unpack_list(l):
     j = []
     for i in range(y):
         # print(l[i]) # prints each element from the list.
-        new.append(l[i]) # works but doesn't nest all the elements. Elements 0 and 1 are still unnested in new list.
-        index +=1
-        j.append(new)
+        new.append(l[i]) 
+        index += # does now work as intended. It adds the think list to j four times.         
+        j.append(new) # i need to unpack each element and add it as a new nested element to list j. i.e ['spam', 1] will become ['spam'] [1] in list j.
         
     # print(new, '- This is the new list.')
     print('APPENDED NEW LIST TO j ', j)
-    print(len(j))
-unpack_list(think) # does not work correctly.
+    # 030221: UPTO HERE
+    # print(len(j[i])) # this didn't work. need to run len function on it and count nested elements.
 
-'''
-def my_list(l):
-    print(l)
+unpack_list(think)
 
-my_list(think)
-'''
