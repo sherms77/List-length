@@ -9,13 +9,14 @@ LINKS
 
 FAILED CODE
 
-DATE: 040221
+--Date: 040221-->
 # tried this from link 2 to test if list comprehension will work.
 # got error: TypeError: object of type 'int' has no len()
+
 think = ['spam!', 1, ['Brie', 'Roquefort', 'Pol le Veq'], [1, 2 ,3, 4]]
 >>> num = sum([len(element) for element in think])
 
-DATE: 040221
+--Date: 040221-->
 think = ['spam!', 1, ['Brie', 'Roquefort', 'Pol le Veq'], [1, 2 ,3, 4]]
 
 def unpack_list(l):
@@ -31,12 +32,13 @@ def unpack_list(l):
         
     # print(new, '- This is the new list.')
     print('APPENDED NEW LIST TO j ', j)
+    
     # 030221: UPTO HERE
     # print(len(j[i])) # this didn't work. need to run len function on it and count nested elements.
 
 unpack_list(think)
 
-DATE: 030221
+--Date: 030221-->
 think = ['spam!', 1, ['Brie', 'Roquefort', 'Pol le Veq'], [1, 2 ,3, 4]]
 e = ['spam!', ['Brie', 'Roquefort', 'Pol le Veq'], [1, 2 ,3]] # list without standalone int 1
 
@@ -57,7 +59,7 @@ def unpack_list(l):
 
 unpack_list(think)
 
-DATE: JAN 2021
+--Date: Jan 2021-->
 num_elements = len(set(l)) # 030121: TypeError: unhashable type: list. looks like you can't use set function on nested lists.
     
 # this function does not work for lilst (l) bc of un-nested int element (1) in list
