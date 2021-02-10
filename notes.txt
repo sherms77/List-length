@@ -14,16 +14,20 @@ running len on the unnested int element of 1 is the problem. len does not work o
 STEPS
 1.080221: Reread sections 8.1-8.4. - 100221: DONE
 2.080221: Then try nested lists example from link 2 again. Refer to link 3 for info on recursion error. - 100221: DONE. Resolved recursion error (refer to note 100221).
-3.100221: If step 2 fails, google other solutions for running len() on unnested integer. - NOT REQUIRED AT THIS STAGE.
-4.100221: NEXT STEP - 
+3.100221: If step 2 fails, google other solutions for running len() on unnested integer. 
+4.110221: NEXT STEP: Do flow of execution for nested lists_test.py to see if I can modify it to solve the problem.
+5.110221: If step 4 fails, google other solutions to run len() on unnested integer. Refer to notes 100221 for details.
 
 NOTES
+110221: WORKING ON STEP 4.
+110221: I could possibly use the code from nested lists_test.py to solve the problem.
+110221: I could modify the code the achieve the desired result.
 100221: Can I use the code from the nested lists_test.py to solve problem? 
 100221: Answer to above: NO - the code in nested lists_test.py does not use len and it gives the total len of all elements (as an aggregate). The probelm requires you to use len and to print the length of each element in isolation of eachother, not as an aggregate.
-100221: RESOLVED RECURSION ERROR FOR NESTED LIST CODE FROM LINK 2. MY INDENTATION WAS INCORRECT. REFER TO nested lists_test.py and nested lists_test(2).py.
-080221: TRIED NESTED LISTS EXAMPLE FROM LINK 2. DID NOT WORK.
-080221: TRIED TO RESOLVE RECURSION ERROR USING INFO IN LINK 3 FROM NOTES DOC. GOT OS ERROR.
-080221: REFER TO NESTED LISTS_TEST.PY
+100221: Resolved recursion error for nested list code from link 2. My indentation was incorrect. Refer to nested lists_test.py and nested lists_test(2).py.
+080221: Tried to resolve recursion error using info in link 3. Got os error.
+080221: Tried nested lists example from link 2. Did not work.
+080221: Refer to nested lists_test.py.
 
 FAILED CODE
 

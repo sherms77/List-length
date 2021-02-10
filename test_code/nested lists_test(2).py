@@ -1,6 +1,8 @@
 # pasted code from: nested lists section in https://stackabuse.com/python-get-number-of-elements-in-a-list/
 # code works
-# mine didn't when I typed it out
+# my code didn't when I typed it out
+# my indentations were incorrect
+# corrected in nested_lists.py
 
 list_f = [30, 0.9, [8, 56, 22, ["a", "hello"]], [200, 3, [5, [89], 10]]]
 
