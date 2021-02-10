@@ -6,8 +6,71 @@ ABOUT
 LINKS
 1.020221: append list - https://www.programiz.com/python-programming/methods/list/append
 2.040221: https://stackabuse.com/python-get-number-of-elements-in-a-list/
+3.080221: https://www.geeksforgeeks.org/python-handling-recursion-limit/ # got recursion error: max recursion depth exceeded when trying nested lists example in link 2.
+
+BLOCKERS
+running len on the unnested int element of 1 is the problem. len does not work on it in this list format.
+
+STEPS
+1.080221: Reread sections 8.1-8.4. - 100221: DONE
+2.080221: Then try nested lists example from link 2 again. Refer to link 3 for info on recursion error. - 100221: DONE. Resolved recursion error (refer to note 100221).
+3.100221: If step 2 fails, google other solutions for running len() on unnested integer. - NOT REQUIRED AT THIS STAGE.
+4.100221: NEXT STEP - 
+
+NOTES
+100221: Can I use the code from the nested lists_test.py to solve problem? 
+100221: Answer to above: NO - the code in nested lists_test.py does not use len and it gives the total len of all elements (as an aggregate). The probelm requires you to use len and to print the length of each element in isolation of eachother, not as an aggregate.
+100221: RESOLVED RECURSION ERROR FOR NESTED LIST CODE FROM LINK 2. MY INDENTATION WAS INCORRECT. REFER TO nested lists_test.py and nested lists_test(2).py.
+080221: TRIED NESTED LISTS EXAMPLE FROM LINK 2. DID NOT WORK.
+080221: TRIED TO RESOLVE RECURSION ERROR USING INFO IN LINK 3 FROM NOTES DOC. GOT OS ERROR.
+080221: REFER TO NESTED LISTS_TEST.PY
 
 FAILED CODE
+
+--Date: 080221-->
+
+# tried this to try and resolve recursion error.
+# did not work.
+# got internal os error.
+
+import sys
+list_f = [30, 0.9, [8, 56, 22, ["a", "b"]], [200, 3, [5, [89], 10]]]
+
+# print(list_f)
+
+sys.setrecursionlimit(10**6) # got internal os error.
+
+def get_elements_of_nested_list(element):
+    count = 0
+    if isinstance(element, list):
+        for each_element in element:
+            count += get_elements_of_nested_list(element)
+        else:
+            count += 1
+        return count
+
+print("Total number of elements in the nested list: ", get_elements_of_nested_list(list_f))
+
+# example from link 2.
+# refer to line 27
+
+list_f = [30, 0.9, [8, 56, 22, ["a", "b"]], [200, 3, [5, [89], 10]]]
+
+# print(list_f)
+
+sys.setrecursionlimit(10**6)
+
+def get_elements_of_nested_list(element):
+    count = 0
+    if isinstance(element, list):
+        for each_element in element:
+            count += get_elements_of_nested_list(element) # changed this from (each_element) to (element) - got recursion error.
+        else:
+            count += 1
+        return count
+
+print("Total number of elements in the nested list: ", get_elements_of_nested_list(list_f))
+
 
 --Date: 040221-->
 # tried this from link 2 to test if list comprehension will work.
