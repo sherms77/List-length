@@ -15,7 +15,14 @@ notes.txt
 README.md
 tests(folder):
 	int_stingtest.py
-	list_lentest.ppy
+	list comp.py
+	list_lentest.py
 	lists.py
 	lists_accessElements.py
 	list_settest.py
+	list-to-func-paramater_test.py
+	nested lists_len test(a).py
+	nested lists_test.py
+	nested lists_test(2
+	recursion_error(1).png
+	recursion_error(2).png

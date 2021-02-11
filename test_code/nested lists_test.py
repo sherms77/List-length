@@ -3,7 +3,9 @@
 
 # list_f = [30, 0.9, [8, 56, 22, ["a", "b"]], [200, 3, [5, [89], 10]]]
 # think = ['spam!', 1, ['Brie', 'Roquefort', 'Pol le Veq'], [1, 2 ,3, 4]]
-think =  ['spam', 'hello', 1, 2, 3, 4] # list with unnested elements
+# think =  ['spam', 'hello', 1, 2, 3, 4] # list with unnested elements
+# think = {1:'hello', 2: 'goodbye', 3: 'hi', 4: 'bye'} # dict not a list to test else statement - else statement counts the entire dict as one element. does not count elements in it.
+think = {1:'hello', 2: 'goodbye', 3: 'hi', 4: 'bye', {a: 'bonjour', b: 'konichiwa', c: 'aloha'}}
 
 def get_elements_of_nested_list(element):
     count = 0
