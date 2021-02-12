@@ -7,6 +7,7 @@ LINKS
 1.020221: append list - https://www.programiz.com/python-programming/methods/list/append
 2.040221: https://stackabuse.com/python-get-number-of-elements-in-a-list/
 3.080221: https://www.geeksforgeeks.org/python-handling-recursion-limit/ # got recursion error: max recursion depth exceeded when trying nested lists example in link 2.
+4.120221: https://www.programiz.com/python-programming/nested-dictionary#:~:text=Key%20Points%20to%20Remember%3A,Nested%20Dictionary%20is%20not%20possible.
 
 BLOCKERS
 running len on the unnested int element of 1 is the problem. len does not work on it in this list format.
@@ -19,18 +20,31 @@ STEPS
 5.110221: If step 4 fails, google other solutions to run len() on unnested integer. Refer to notes 100221 for details.
 
 NOTES
-a.110221: WORKING ON STEP 4.
-b.110221: UPDATE FILES SECTION IN README. - 120221: DONE
-c.110221: I could possibly use the code from nested lists_test.py to solve the problem.
-d.110221: Can I modify the code the achieve the desired result?
-e.100221: Can I use the code from the nested lists_test.py to solve problem? 
-f.100221: Answer to above (e): NO - the code in nested lists_test.py does not use len and it gives the total len of all elements (as an aggregate). The probelm requires you to use len and to print the length of each element in isolation of eachother, not as an aggregate.
-g.100221: Resolved recursion error for nested list code from link 2. My indentation was incorrect. Refer to nested lists_test.py and nested lists_test(2).py.
-h.080221: Tried to resolve recursion error using info in link 3. Got os error.
-i.080221: Tried nested lists example from link 2. Did not work.
-j.080221: Refer to nested lists_test.py.
+130221: STILL WORKING ON STEP 4 - FINISHED FLOW OF EXECUTION IN STEP 4. NOW ASSESSING IF I CAN USE TO SOLVE PROBLEM.
+
+130221: How isinstance works (nested lists_test.py): 
+    1.Checks an object's data type. Eg: isinstance("hey", str). Out: True. It returns a boolean.
+    2.The second argument can be a tuple. Eg: isinstance(["hey"], (str, int, list)) Out: True. One of the arguments in the tuple makes the first argument true.
+
+130221: STILL WORKING ON STEP 4.
+120221: Trying to resolve nested dictionary error to test else statement. This relates to step 4. Refer to link 4. 130221: RESOLVED.
+110221: WORKING ON STEP 4.
+110221: UPDATE FILES SECTION IN README. - 120221: DONE
+110221: I could possibly use the code from nested lists_test.py to solve the problem.
+110221: Can I modify the code the achieve the desired result?
+100221: Can I use the code from the nested lists_test.py to solve problem? 
+        Answer to above: NO - the code in nested lists_test.py does not use len and it gives the total len of all elements (as an aggregate). The probelm requires you to use len and to print the length of each element in isolation of eachother, not as an aggregate.
+100221: Resolved recursion error for nested list code from link 2. My indentation was incorrect. Refer to nested lists_test.py and nested lists_test(2).py.
+080221: Tried to resolve recursion error using info in link 3. Got os error.
+080221: Tried nested lists example from link 2. Did not work.
+080221: Refer to nested lists_test.py.
 
 FAILED CODE
+
+--Date: 130221-->
+# This format does not work. The nested dictionary need a key value.
+# This relates to testing the else statement in nested list_test.py.
+think = {1:'hello', 2: 'goodbye', 3: 'hi', 4: 'bye', {a: 'bonjour', b: 'konichiwa', c: 'aloha'}} 
 
 --Date: 080221-->
 

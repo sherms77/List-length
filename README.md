@@ -26,3 +26,6 @@ tests(folder):
 	nested lists_test(2
 	recursion_error(1).png
 	recursion_error(2).png
+
+# Notes
+120221: Do not add to new repo - Python challenges. Do not want to disrupt existing repo.
