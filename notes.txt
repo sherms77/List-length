@@ -21,7 +21,7 @@ STEPS
 
 NOTES
 130221: STILL WORKING ON STEP 4 - FINISHED FLOW OF EXECUTION IN STEP 4. NOW ASSESSING IF I CAN USE TO SOLVE PROBLEM.
-
+130221: Might need to explore other avenues if I cannot modify code in nested lists.py to solve problem.
 130221: How isinstance works (nested lists_test.py): 
     1.Checks an object's data type. Eg: isinstance("hey", str). Out: True. It returns a boolean.
     2.The second argument can be a tuple. Eg: isinstance(["hey"], (str, int, list)) Out: True. One of the arguments in the tuple makes the first argument true.
