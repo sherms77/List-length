@@ -18,8 +18,13 @@ STEPS
 3.100221: If step 2 fails, google other solutions for running len() on unnested integer. 
 4.110221: NEXT STEP: Do flow of execution for nested lists_test.py to see if I can modify it to solve the problem.
 5.110221: If step 4 fails, google other solutions to run len() on unnested integer. Refer to notes 100221 for details.
+6.150221: Step 4 failed. Reassessing unpacking and repacking option. Looking for a solution to repack the unnested integer as nested item in a new list so len() can be run on it.
 
 NOTES
+150221: UPTO STEP 6.
+150221: The list is being repacked in the same way. Ie: unnested elements remain unnested in the new list.
+150221: Went back to list_length MAIN.py and debugged it to see how the list was being unpacked and repacked.
+150221: Could not see a way to use the code in nested lists_test.py to solve the problem.
 130221: STILL WORKING ON STEP 4 - FINISHED FLOW OF EXECUTION IN STEP 4. NOW ASSESSING IF I CAN USE TO SOLVE PROBLEM.
 130221: Might need to explore other avenues if I cannot modify code in nested lists.py to solve problem.
 130221: How isinstance works (nested lists_test.py): 
