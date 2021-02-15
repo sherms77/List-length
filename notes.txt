@@ -21,7 +21,7 @@ STEPS
 6.150221: Step 4 failed. Reassessing unpacking and repacking option. Looking for a solution to repack the unnested integer as nested item in a new list so len() can be run on it.
 
 NOTES
-150221: UPTO STEP 6.
+150221: UPTO STEP 6. - LOOK UP HOW TO REPACK AS NESTED ELEMENTS.
 150221: The list is being repacked in the same way. Ie: unnested elements remain unnested in the new list.
 150221: Went back to list_length MAIN.py and debugged it to see how the list was being unpacked and repacked.
 150221: Could not see a way to use the code in nested lists_test.py to solve the problem.
