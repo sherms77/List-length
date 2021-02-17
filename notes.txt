@@ -23,6 +23,7 @@ STEPS
 
 
 NOTES
+170221: Completed step 6. UPTO STEP 7.
 160221: Step 6 is now 7. WORKING ON STEP 6.
 160221: Added an extra step. Decided to write a function so that it works with a list with nested interger elemtents. Will see how that works first.
 150221: UPTO STEP 6. - LOOK UP HOW TO REPACK AS NESTED ELEMENTS. ALSO, WRITE OUT EXISTING CODE AND ANALYSE.
