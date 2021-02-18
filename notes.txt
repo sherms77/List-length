@@ -8,6 +8,8 @@ LINKS
 2.040221: https://stackabuse.com/python-get-number-of-elements-in-a-list/
 3.080221: https://www.geeksforgeeks.org/python-handling-recursion-limit/ # got recursion error: max recursion depth exceeded when trying nested lists example in link 2.
 4.120221: https://www.programiz.com/python-programming/nested-dictionary#:~:text=Key%20Points%20to%20Remember%3A,Nested%20Dictionary%20is%20not%20possible.
+5.180221: https://dbader.org/blog/python-nested-unpacking 
+6.180221: https://www.geeksforgeeks.org/python-unpacking-nested-tuples/
 
 BLOCKERS
 running len on the unnested int element of 1 is the problem. len does not work on it in this list format.
@@ -20,10 +22,15 @@ STEPS
 5.100221: DONE - 110221: If step 4 fails, google other solutions to run len() on unnested integer. Refer to notes 100221 for details.
 6.100221: DONE - 160221: Write function to run len() on list with only nested intger elements in list.
 7.150221: DONE - Step 4 failed. Write out exitisting code from list_length MAIN.py and analyse. Reassess unpacking and repacking option. Looking for a solution to repack the unnested integer as nested item in a new list so len() can be run on it.
-8.180221: Write logic required to make list_length MAIN.py work. Ie: repacking unnested integers.
+8.180221: Write/workout logic required to make list_length MAIN.py work. Ie: repacking unnested integers.
+9.180221: Read link 5.
 
 NOTES
-180221: WORKING ON STEP 8. Finished step 7.
+180221: STILL WORKING ON STEP 8 AND 9. Refer to new-list-prod.py.
+180221: WORKING ON STEP 8 and 9. REFER TO unpack-repack-test.py. Finished step 7.
+180221: To get elements to be repacked as nested elements in a new list, you have to store each element in its own list and then add to a new list.
+180221: To put unpacked elements in its own list it will require a loop to create a new list for each element.
+180221: List comprehension might be a cleaner solution but will do the long way first to understand operation.
 170221: UPTO STEP 7. Finished step 6.
 160221: Step 6 is now 7. WORKING ON STEP 6.
 160221: Added an extra step. Decided to write a function so that it works with a list with nested interger elemtents. Will see how that works first.

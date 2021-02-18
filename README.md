@@ -29,4 +29,4 @@ tests(folder):
 	recursion_error(2).png
 
 # Notes
-120221: Do not add to new repo - Python challenges. Do not want to disrupt existing repo.
+120221: Do not move this repo to Python challenges. Do not want to disrupt existing repo.
