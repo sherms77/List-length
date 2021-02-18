@@ -10,7 +10,7 @@ def unpack_list(l):
     new = []
     # j = []
     for i in range(y):
-        # print(l[i]) # prints each element from the list.
+        print(l[i]) # prints each element from the list.
         new.append(l[i]) 
         # index += 1 # does not work as intended. It adds the think list to j four times.         
         # j.append(new) # i need to unpack each element and add it as a new nested element to list j. i.e ['spam', 1] will become ['spam'] [1] in list j.
