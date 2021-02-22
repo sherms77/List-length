@@ -10,6 +10,7 @@ LINKS
 4.120221: https://www.programiz.com/python-programming/nested-dictionary#:~:text=Key%20Points%20to%20Remember%3A,Nested%20Dictionary%20is%20not%20possible.
 5.180221: https://dbader.org/blog/python-nested-unpacking 
 6.180221: https://www.geeksforgeeks.org/python-unpacking-nested-tuples/
+7.200221: https://docs.python.org/3/tutorial/datastructures.html 
 
 BLOCKERS
 running len on the unnested int element of 1 is the problem. len does not work on it in this list format.
@@ -26,8 +27,9 @@ STEPS
 9.180221: Read link 5.
 
 NOTES
-180221: Refer to new-list-prod.py. Tryin to get unpacked elements saved in its own list.
-180221: Logic: Trying to repack each unpacked element in its own list, so it can be added to another list as a nested element which will allow len() to be run on each nested element in the new repacked list.
+200221: Still working on new-list-prod. Problem with repacking list. Refer to links 5 and 7.
+190221: Refer to new-list-prod.py. Trying to get unpacked elements saved in its own list.
+190221: Logic: Trying to repack each unpacked element in its own list, so it can be added to another list as a nested element which will allow len() to be run on each nested element in the new repacked list.
 180221: STILL WORKING ON STEP 8 AND 9. Refer to new-list-prod.py.
 180221: WORKING ON STEP 8 and 9. REFER TO unpack-repack-test.py. Finished step 7.
 180221: To get elements to be repacked as nested elements in a new list, you have to store each element in its own list and then add to a new list.
