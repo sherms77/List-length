@@ -27,6 +27,8 @@ STEPS
 9.180221: Read link 5.
 
 NOTES
+230221: Reading link 5. Upto #1 – Unpacking and the “=” Assignment Operator.
+230221: As per note on 220221, the challenge is repacking the elements in anothe list as a nested element. Trying to get the list name to iterate and be a new one each time.
 220221: Still working on new-list-prod. Prob with repacking. Having trouble getting unpacked elements to be repacked as nested elements in a new list.
 200221: Still working on new-list-prod. Problem with repacking list. Refer to links 5 and 7.
 190221: Refer to new-list-prod.py. Trying to get unpacked elements saved in its own list.
