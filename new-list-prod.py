@@ -1,3 +1,6 @@
+# 240221: From link 5 - You can use [] and () on the left side of the operator but the number of targets and variables must match.
+# 240221: I tried to use a loop to change the target name on each iteration with [] before but did not work. Will try again.
+
 import string
 
 l = ['spam!', 1, [2,3], 'h', 4, [5,6]]
