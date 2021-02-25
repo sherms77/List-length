@@ -23,10 +23,15 @@ STEPS
 5.100221: DONE - 110221: If step 4 fails, google other solutions to run len() on unnested integer. Refer to notes 100221 for details.
 6.100221: DONE - 160221: Write function to run len() on list with only nested intger elements in list.
 7.150221: DONE - Step 4 failed. Write out exitisting code from list_length MAIN.py and analyse. Reassess unpacking and repacking option. Looking for a solution to repack the unnested integer as nested item in a new list so len() can be run on it.
-8.180221: Write/workout logic required to make list_length MAIN.py work. Ie: repacking unnested integers.
-9.180221: Read link 5.
+8.180221: DONE - Write/workout logic required to make list_length MAIN.py work. Ie: repacking unnested integers.
+9.180221: DONE - Read link 5.
+10.250221: Debug new-nested-test.py to understand why index [2]'s len is 6 as a string. 
 
 NOTES
+250221: Refer to new-nested-test.py (in tests folder). Converted list to a string and that works. However, unsrue why index 2 has a len of 6 when I put two numbers in the nested list. NEED TO DEBUG.
+250221: Did not complete step 8 fully but converted list to string which lets me run len on it.
+250221: Refer to notes dated 250221 in new-list-prod.py.
+250221: REFER TO link in my gmail inbox. Save link here.
 240221: Still reading link 5. Upto #2 Unpacking and for-loops. 
 240221: From link 5 - You can use [] and () on the left side of the operator but the number of targets and variables must match.
 230221: Reading link 5. Upto #1 – Unpacking and the “=” Assignment Operator.

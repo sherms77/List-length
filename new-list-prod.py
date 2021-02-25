@@ -3,6 +3,12 @@
 
 import string
 
+# 250221: Tried nesting entire list in a new list but could not easily access elements from nested list.
+# 250221: Try new_list.append(l[i]) - make the nested element iterable and append to new list. This might work.
+# 250221: I don't think above will work bc it will keep adding new elements to the list but it won't nest each one. I have tried this before.
+
+# 250221: SHOULD I CONVERT THE LIST TO A STRING FIRST??
+
 l = ['spam!', 1, [2,3], 'h', 4, [5,6]]
       
 # unpacks list
@@ -34,7 +40,6 @@ def new_list_prod(r):
         # either in a new list the aggregated in new list
         # or appended as a nested element in one list
         
-
     '''
         q = []
         q.append(r[element])

@@ -6,7 +6,10 @@ Active
 # Problem
 1.As an exercise, write a loop that traverses the previous list and prints the length of each element. 2.What happens if you send an integer to len?
 
-# Answer to problem 2
+# Promblem 1 | Solution
+TBC
+
+# Problem 2 | Solution
 If you send an integer to a len (with mixed elements) and you try to get its len, you get an error. However, you get the len of a list that only has integers in it or, if there is nested list with only intergers in it you will get the len of the nested list.
 
 # Files
