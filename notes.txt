@@ -11,9 +11,12 @@ LINKS
 5.180221: https://dbader.org/blog/python-nested-unpacking 
 6.180221: https://www.geeksforgeeks.org/python-unpacking-nested-tuples/
 7.200221: https://docs.python.org/3/tutorial/datastructures.html 
+8.260221: https://www.dataquest.io/blog/tutorial-functions-modify-lists-dictionaries-python/ 
+9.260221: https://stackoverflow.com/questions/19669001/using-len-for-text-but-discarding-spaces-in-the-count
 
 BLOCKERS
 running len on the unnested int element of 1 is the problem. len does not work on it in this list format.
+260221: Unblocked - converted list elements to strings to run len on them.
 
 STEPS
 1.100221: DONE - 080221: Reread sections 8.1-8.4.
@@ -25,9 +28,17 @@ STEPS
 7.150221: DONE - Step 4 failed. Write out exitisting code from list_length MAIN.py and analyse. Reassess unpacking and repacking option. Looking for a solution to repack the unnested integer as nested item in a new list so len() can be run on it.
 8.180221: DONE - Write/workout logic required to make list_length MAIN.py work. Ie: repacking unnested integers.
 9.180221: DONE - Read link 5.
-10.250221: Debug new-nested-test.py to understand why index [2]'s len is 6 as a string. 
+10.250221: DONE - Debug new-nested-test.py to understand why index [2]'s len is 6 as a string. 
+11.260221: DONE - Exlude whitespace from len count on converted list (list converted to str).
+12.260221: DONE - Wrap commands that run len on converted list in a for loop.
+13.260221: DONE - Read link 9.
+14.260221: Create for loop to iterate over index numbers.
+15.260221: Then putiterable index numbers in print statement for len of each element in relevant index.
+
 
 NOTES
+260221: UPTO STEP 14.
+260221: Len works on converted list (list converted to a string). It counts whitespace. Working out way to exclude whitespace from count.
 250221: Refer to new-nested-test.py (in tests folder). Converted list to a string and that works. However, unsrue why index 2 has a len of 6 when I put two numbers in the nested list. NEED TO DEBUG.
 250221: Did not complete step 8 fully but converted list to string which lets me run len on it.
 250221: Refer to notes dated 250221 in new-list-prod.py.
@@ -57,7 +68,6 @@ NOTES
 130221: How isinstance works (nested lists_test.py): 
     1.Checks an object's data type. Eg: isinstance("hey", str). Out: True. It returns a boolean.
     2.The second argument can be a tuple. Eg: isinstance(["hey"], (str, int, list)) Out: True. One of the arguments in the tuple makes the first argument true.
-
 130221: STILL WORKING ON STEP 4.
 120221: Trying to resolve nested dictionary error to test else statement. This relates to step 4. Refer to link 4. 130221: RESOLVED.
 110221: WORKING ON STEP 4.
@@ -72,7 +82,6 @@ NOTES
 080221: Refer to nested lists_test.py.
 
 FAILED CODE
-
 --Date: 130221-->
 # This format does not work. The nested dictionary need a key value.
 # This relates to testing the else statement in nested list_test.py.
@@ -121,7 +130,6 @@ def get_elements_of_nested_list(element):
         return count
 
 print("Total number of elements in the nested list: ", get_elements_of_nested_list(list_f))
-
 
 --Date: 040221-->
 # tried this from link 2 to test if list comprehension will work.

@@ -31,6 +31,19 @@ def new_nested(x):
     print('Len for index [2] is', len(new[2])) # its counting the whitespace to give 6 characters
     print('Len for index [3] is', len(new[3])) 
 
+    print(new[2])
+    print('The number of whitespaces in index [2] is', new[2].count(' '))
+    
+    print(new[3])
+    print('The number of whitespaces in index [3] is', new[3].count(' ')) # works - no whitespaces to count
+    
+    sub_whitespace = len(new[2]) - new[2].count(' ') # works
+    minus_whitespace = len(new[3]) - new[3].count(' ') # works
+    # above may not work either bc it will deduct the whitespace from all the elements.
+    print('Len of index [2] excluding the whitespaces is', sub_whitespace)
+    print('Len of index [3] excluding the whitespaces is', minus_whitespace)
+
+
     # 250221: Subtract the number of blank spaces from list - https://stackoverflow.com/questions/19669001/using-len-for-text-but-discarding-spaces-in-the-count
     
     # WRAP IN A FOR LOOP
