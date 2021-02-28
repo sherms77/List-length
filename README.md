@@ -6,16 +6,18 @@ Active
 # Problem
 1.As an exercise, write a loop that traverses the previous list and prints the length of each element. 2.What happens if you send an integer to len?
 
-# Promblem 1 | Solution
+# Solution | Problem 1
 TBC
 
-# Problem 2 | Solution
+# Solution | Problem 2
 If you send an integer to a len (with mixed elements) and you try to get its len, you get an error. However, you get the len of a list that only has integers in it or, if there is nested list with only intergers in it you will get the len of the nested list.
 
 # Files
-list_lengthMAIN.py - MAIN
+list_length MAIN(2)
+list_length MAIN.py - MAIN
 list_length(2).py
 new-list-prod.py
+new-nested-test.py
 notes.txt
 README.md
 tests(folder):
