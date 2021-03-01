@@ -13,7 +13,7 @@ LINKS
 7.200221: https://docs.python.org/3/tutorial/datastructures.html 
 8.260221: https://www.dataquest.io/blog/tutorial-functions-modify-lists-dictionaries-python/ 
 9.260221: https://stackoverflow.com/questions/19669001/using-len-for-text-but-discarding-spaces-in-the-count
-10.270221: Create archive folder.
+10.010321: https://www.programiz.com/python-programming/methods/list/index
 
 BLOCKERS
 running len on the unnested int element of 1 is the problem. len does not work on it in this list format.
@@ -35,9 +35,13 @@ STEPS
 13.260221: DONE - Read link 9.
 14.260221: Create for loop to iterate over index numbers.
 15.260221: Then putiterable index numbers in print statement for len of each element in relevant index.
+16.270221: Create archive folder.
+17.010321: Re-write solution to problem 2 to make it clearer.
+18.010321: Move unused files to an archive folder.
 
 
 NOTES
+010321: UPTO STEP 14. Refer to print index_test.py. Still working out how to print index number of list. Having trouble with nested elements. Refer to link 10.
 260221: UPTO STEP 14.
 260221: Len works on converted list (list converted to a string). It counts whitespace. Working out way to exclude whitespace from count.
 250221: Refer to new-nested-test.py (in tests folder). Converted list to a string and that works. However, unsrue why index 2 has a len of 6 when I put two numbers in the nested list. NEED TO DEBUG.

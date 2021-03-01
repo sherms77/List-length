@@ -22,9 +22,14 @@ def list_length(x):
 
     # CREATE FOR LOOP TO ITERATE OVER INDEX NUMBERS
     # THEN PUT ITERABLE INDEX NUMBERS IN PRINT STATEMENT FOR LEN OF EACH ELEMENT IN RELEVANT INDEX
+    
+    # for n in range(k):
+        # print('The index number is:', new.index(n))
 
     for element in range(k):
         sub_white = len(new[element]) - new[element].count(' ')
-        print('The length of element in index', new[element], 'is', sub_white)
+        # print('The length of element in index', new[element], 'is', sub_white)
+        print('The length of element in index', new.index(element), 'is', sub_white)
+
 
 list_length(think)
