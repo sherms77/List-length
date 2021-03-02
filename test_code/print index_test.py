@@ -1,9 +1,16 @@
 think = ['spam!', 1, ['Brie', 'Roquefort', 'Pol le Veq'], [1, 2 ,3, 4]]
 y = int(len(think)) # upper limit
 
-print(think.index('spam!')) # need to use item not index no.
-print(think.index('Brie')) # how to access nested element index?
+# print(think.index('spam!')) # need to use item not index no.
+# print(think.index('Brie')) # how to access nested element index?
+print(think[2][0])
+print(think.index('Brie', 2, 3))
 
+'''
+for e in range(y):
+    print(think[e])
+# this loop iterates over the list and prints each element.
+'''
 
 '''
 for i in range(y):

@@ -41,7 +41,9 @@ STEPS
 
 
 NOTES
-010321: UPTO STEP 14. Refer to print index_test.py. Still working out how to print index number of list. Having trouble with nested elements. Refer to link 10.
+020321: STILL UPTO STEP 14.
+020321: Tried using start and stop paramaters in the index() method to find nested element. Does not work.
+010321: UPTO STEP 14. Refer to - print index_test.py. Still working out how to print index number of list. Having trouble with nested elements. Refer to link 10.
 260221: UPTO STEP 14.
 260221: Len works on converted list (list converted to a string). It counts whitespace. Working out way to exclude whitespace from count.
 250221: Refer to new-nested-test.py (in tests folder). Converted list to a string and that works. However, unsrue why index 2 has a len of 6 when I put two numbers in the nested list. NEED TO DEBUG.
