@@ -32,7 +32,7 @@ print("Total number of elements in the nested list: ", get_elements_of_nested_li
 # out[think]: Total number of elements in the nested list: 9 
 # prints the aggregate of all elements in the list.
 
-# QUESTION: Can I use this to code to count the len of each element individually?
+# QUESTION: Can I use this code to count the len of each element individually?
 # Ie: in[len(think[0])]: think = ['spam!', 1, ['Brie', 'Roquefort', 'Pol le Veq'], [1, 2 ,3, 4]] 
 #     out[len(think[0])]: 5
 #     in[len(think[2])]: think = ['spam!', 1, ['Brie', 'Roquefort', 'Pol le Veq'], [1, 2 ,3, 4]] 

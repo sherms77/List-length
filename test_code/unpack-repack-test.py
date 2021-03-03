@@ -17,7 +17,7 @@ repack(l)
 
 # DATE: 180221
 
-# 1.if i store each unpacked item in it's own list
+# 1.if I store each unpacked item in it's own list
 # 2.then append those lists to a new list
 # 3.it will give me a list with nested elements
 

@@ -14,6 +14,7 @@ LINKS
 8.260221: https://www.dataquest.io/blog/tutorial-functions-modify-lists-dictionaries-python/ 
 9.260221: https://stackoverflow.com/questions/19669001/using-len-for-text-but-discarding-spaces-in-the-count
 10.010321: https://www.programiz.com/python-programming/methods/list/index
+11.030321: https://www.geeksforgeeks.org/python-list-index/ 
 
 BLOCKERS
 running len on the unnested int element of 1 is the problem. len does not work on it in this list format.
@@ -39,8 +40,11 @@ STEPS
 17.010321: Re-write solution to problem 2 to make it clearer.
 18.010321: Move unused files to an archive folder.
 
-
 NOTES
+030321: STILL WORKING ON STEP 14. As per note below (on 030321) finalise on Thursday if I can't get step 14 to work.
+030321: Problem with finding index of nested elements is setting up syntax for loop. Accessing nested and unnested element require two different forms of syntax.
+030321: Link 11 shows how to use index() function on nested elements.
+030321: If I can't complete step 14 by Thursday - 04/03/21, leave that function out and complete exercise.
 020321: STILL UPTO STEP 14.
 020321: Tried using start and stop paramaters in the index() method to find nested element. Does not work.
 010321: UPTO STEP 14. Refer to - print index_test.py. Still working out how to print index number of list. Having trouble with nested elements. Refer to link 10.
@@ -210,7 +214,7 @@ listLength2()
 # print(len(e[2]))
 
 '''
-# this prints lenght of each element in the list
+# this prints length of each element in the list
 def listLength():
     i = 0
     while i < len(e):
