@@ -15,7 +15,7 @@ Finsished - 4 March 2021.
 6.Used enumerate function to show index of each element and its length.
 
 # Solution | Problem 2
-If you send an integer to the len() function, it does not work. It returns an error, you cannot use the len() function on an integer. However, if you use len() on a nested list with integers in it, it will work - it returns the len of the nested list.
+If you send an integer to the len() function, it does not work. It returns an error, you cannot use the len() function on an integer. However, if you use len() on a nested list with integers in it, it will work - it returns the len of the nested list. Refer to list_length MAIN(3).py.
 
 # Files
 list_length MAIN(3).py - MAIN
