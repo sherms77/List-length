@@ -1,6 +1,3 @@
-# Pg.86 - How to think cs
-# ref to /home/sherms/Python files/How to think_exercises/listLength/README_listLength.txt
-
 think = ['spam!', 1, ['Brie', 'Roquefort', 'Pol le Veq'], [1, 2 ,3, 4]]
 new = []
 

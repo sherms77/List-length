@@ -15,6 +15,8 @@ LINKS
 9.260221: https://stackoverflow.com/questions/19669001/using-len-for-text-but-discarding-spaces-in-the-count
 10.010321: https://www.programiz.com/python-programming/methods/list/index
 11.030321: https://www.geeksforgeeks.org/python-list-index/ 
+12.040321: https://stackoverflow.com/questions/522563/accessing-the-index-in-for-loops 
+13.040321: https://www.bitdegree.org/learn/python-enumerate
 
 BLOCKERS
 running len on the unnested int element of 1 is the problem. len does not work on it in this list format.
@@ -34,13 +36,22 @@ STEPS
 11.260221: DONE - Exlude whitespace from len count on converted list (list converted to str).
 12.260221: DONE - Wrap commands that run len on converted list in a for loop.
 13.260221: DONE - Read link 9.
-14.260221: Create for loop to iterate over index numbers.
-15.260221: Then putiterable index numbers in print statement for len of each element in relevant index.
-16.270221: Create archive folder.
-17.010321: Re-write solution to problem 2 to make it clearer.
-18.010321: Move unused files to an archive folder.
+14.260221: DONE - Create for loop to iterate over index numbers.
+15.260221: DONE - Then put iterable index numbers in print statement for len of each element in relevant index.
+16:040321: DONE - Clean up code in MAIN file - Solution 1. MAIN file: list_length MAIN(3).py.
+17.040321: DONE - Read link 13.
+18.040321: DONE - Clean up files and folders.
+19.270221: DONE - Create archive folder.
+20.010321: DONE - Move unused files to an archive folder.
+21.040321: DONE - Write solution one in README file.
+21.010321: DONE - Re-write solution to problem 2 to make it clearer.
 
 NOTES
+040321: FINALISED EXERCISE.
+040321: Refer to links 12 and 13. Read link 13.
+040321: Enumerate function can do what's required in steps 14 and 15.
+040321: Working on step 16. Refer to list_length MAIN(3).py.
+040321: Decided to skip step 14 and 15 and finalise exercise.
 030321: STILL WORKING ON STEP 14. As per note below (on 030321) finalise on Thursday if I can't get step 14 to work.
 030321: Problem with finding index of nested elements is setting up syntax for loop. Accessing nested and unnested element require two different forms of syntax.
 030321: Link 11 shows how to use index() function on nested elements.

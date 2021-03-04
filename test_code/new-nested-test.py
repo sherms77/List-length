@@ -2,7 +2,8 @@
 
 # WRAP LEN() IN A FOR LOOP
 
-my_list = ['spam!', 1, [3,2], [4]]
+# my_list = ['spam!', 1, [3,2], [4]]
+think = ['spam!', 1, ['Brie', 'Roquefort', 'Pol le Veq'], [1, 2 ,3, 4]]
 new = []
 
 def new_nested(x):
@@ -49,6 +50,7 @@ def new_nested(x):
     # WRAP IN A FOR LOOP
          
 new_nested(my_list)
+# new_nested(think)
 
 
     
